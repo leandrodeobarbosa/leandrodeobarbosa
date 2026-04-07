@@ -67,7 +67,6 @@ Minha própria aplicação de portfólio será usada como workload dentro da pla
 
 * **FlowDX** — Plataforma self-service focada em DX, automação e provisionamento
 * **Portfólio pessoal** — Workload real usado para validar a plataforma
-* **Projetos de infraestrutura** — Iniciativas com foco em Terraform, CI/CD e Cloud Native
 
 ---
 
