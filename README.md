@@ -18,8 +18,9 @@
 
 ## Sobre mim
 
-Atuo com automação de infraestrutura, CI/CD, GitOps e ambientes cloud-native. Tenho experiência prática com **AWS, Terraform, GitHub Actions, ArgoCD, Kubernetes e Linux**.
-Gosto de construir soluções simples, padronizadas e fáceis de operar, com foco em confiabilidade e boa experiência para times de desenvolvimento.
+Atuo com automação de infraestrutura, CI/CD, GitOps e ambientes cloud-native. 
+Tenho experiência prática com **AWS, Terraform, GitHub Actions, ArgoCD, Kubernetes e Linux** aplicando essas tecnologias na construção de pipelines, provisionamento de infraestrutura e validação contínua de ambientes.
+Gosto de construir soluções simples, padronizadas e fáceis de operar, com foco em confiabilidade e na redução de fricção na experiência de desenvolvimento (DX).
 
 ---
 
