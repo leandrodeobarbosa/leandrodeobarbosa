@@ -20,11 +20,11 @@
 
 I focus on infrastructure automation, CI/CD, and cloud-native architectures, working to reduce the cognitive load of engineering teams by building **Paved Roads**.
 
-Currently, I concentrate my research and technical experiments at **[devopsfera-labs](https://github.com/devopsfera-labs)**, a personal engineering sandbox where I develop **Developer Experience (DX)** solutions and immutable infrastructure. I leverage technologies like **AWS, Terraform, and Kubernetes** to build reliable, standardized, and easy-to-operate environments.
+I currently use **[devopsfera-labs](https://github.com/devopsfera-labs)** as my personal engineering sandbox, where I research, prototype, and build solutions focused on Developer Experience (DX), Platform Engineering, and immutable infrastructure. Using technologies such as AWS, Terraform, and Kubernetes, I design standardized, reliable, and easy-to-operate environments that reflect real-world cloud-native engineering practices.
 
 ---
 
-## 🧪 Labs & Engineering
+## Labs & Engineering
 
 **FlowDX** is the core project of my **Platform Engineering** journey. Hosted at **devopsfera-labs**, it serves as a sandbox for:
 
