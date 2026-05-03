@@ -1,84 +1,72 @@
 <h1 align="center">Leandro de Oliveira Barbosa</h1>
 
 <p align="center">
-  <b>DevOps Engineer | Platform Engineer | Cloud Native </b>
+  <b>DevOps & Platform Engineer | Managed by <a href="https://github.com/devopsfera-labs">@devopsfera-labs</a></b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS" />
   <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="ArgoCD" /><br>
   <img src="https://img.shields.io/badge/developer%20experience-focused-blueviolet">
-  <img src="https://img.shields.io/badge/drift-detection%20enabled-critical">
+  <img src="https://img.shields.io/badge/platform%20engineering-sandbox-blue">
 </p>
 
 ---
 
-## Sobre mim
+## About me
 
-Atuo com automação de infraestrutura, CI/CD, GitOps e ambientes cloud-native. 
-Tenho experiência prática com **AWS, Terraform, GitHub Actions, ArgoCD, Kubernetes e Linux** aplicando essas tecnologias na construção de pipelines, provisionamento de infraestrutura e validação contínua de ambientes.
-Gosto de construir soluções simples, padronizadas e fáceis de operar, com foco em confiabilidade e na redução de fricção na experiência de desenvolvimento (DX).
+I focus on infrastructure automation, CI/CD, and cloud-native architectures, working to reduce the cognitive load of engineering teams by building **Paved Roads**.
 
----
-
-## FlowDX
-
-O **FlowDX** é meu projeto autoral de **Platform Engineering**: uma plataforma em **AWS** com **Terraform** e **CI/CD** pensada para acelerar o provisionamento de serviços e reduzir a complexidade da entrega para o time de desenvolvimento.
-
-A ideia é oferecer uma abordagem **self-service**, com mais velocidade, padronização e melhor **Developer Experience (DX)**.
-
-Minha própria aplicação de portfólio será usada como workload dentro da plataforma, como forma de validar o fluxo ponta a ponta na prática.
+Currently, I concentrate my research and technical experiments at **[devopsfera-labs](https://github.com/devopsfera-labs)**, a personal engineering sandbox where I develop **Developer Experience (DX)** solutions and immutable infrastructure. I leverage technologies like **AWS, Terraform, and Kubernetes** to build reliable, standardized, and easy-to-operate environments.
 
 ---
 
-## Stack principal
+## 🧪 Labs & Engineering
+
+**FlowDX** is the core project of my **Platform Engineering** journey. Hosted at **devopsfera-labs**, it serves as a sandbox for:
+
+*   **Self-Service Provisioning:** Abstracting AWS complexity through Terraform modules.
+*   **Hub-and-Spoke Architecture:** Centralizing governance and CI/CD pipelines across multiple repositories.
+*   **Real-world Workload:** My personal portfolio serves as the official workload to validate the platform's resilience and delivery flow.
+
+---
+
+## Tech Stack
 
 **Cloud & Platform**
-`AWS` `Kubernetes` `Linux`
+`AWS` `Docker` `Kubernetes` `Linux` `Helm`
 
 **IaC & CI/CD**
 `Terraform` `GitHub Actions` `ArgoCD`
 
-**Observability**
-`CloudWatch`
+**Scripting & Automation**
+`Python` `Bash`
 
-**Scripting & Development**
-`Bash` `Node.js`
-
-**Security & Access**
-`IAM` `OIDC` `RBAC`
+**Observability & Security**
+`CloudWatch` `IAM (OIDC/RBAC)` `Drift Detection`
 
 ---
 
-## O que estou construindo
+## Engineering Roadmap
 
-* Automação de Infraestrutura na AWS
-* Workflows de entrega contínua
-* Fluxos self-service para times de desenvolvimento (DX)
-* Padronização de deploy e operação
-* Observability aplicada à plataforma
-* Evolução Contínua de Arquitetura
+*   **Native Kubernetes:** Deep diving into cluster management, Helm charts, and advanced GitOps.
+*   **Terraform Associate:** Theoretical consolidation and official certification in Infrastructure as Code.
+*   **Python for DevOps:** Refactoring pipelines for data-driven automation and infrastructure manipulation.
+*   **Cloud Security:** Refining least-privilege policies and container security best practices.
 
 ---
 
-## Projetos em destaque
+## Contact
 
-* **FlowDX** — Plataforma self-service focada em DX, automação e provisionamento
-* **Portfólio pessoal** — Workload real usado para validar a plataforma
-
----
-
-## Contato
-
-* LinkedIn: **[Leandro de Oliveira Barbosa](https://linkedin.com/in/leandrodeobarbosa)**
-* Portfólio: **[Leandro de Oliveira Barbosa](https://leandrodeobarbosa.dev)**
-* E-mail: **[leandro@leandrodeobarbosa.dev](mailto:leandro@leandrodeobarbosa.dev)**
+*   **LinkedIn:** [Leandro de Oliveira Barbosa](https://linkedin.com/in/leandrodeobarbosa)
+*   **Portfolio:** [leandrodeobarbosa.dev](https://leandrodeobarbosa.dev)
+*   **Email:** [leandro@leandrodeobarbosa.dev](mailto:leandro@leandrodeobarbosa.dev)
 
 ---
 
 <p align="center">
-  <i>Automação, confiabilidade e experiência do desenvolvedor(DX) com visão de produto.</i>
+  <i>"Building paved roads to simplify the lives of those who develop."</i>
 </p>
