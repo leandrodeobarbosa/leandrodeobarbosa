@@ -1,7 +1,7 @@
 <h1 align="center">Leandro de Oliveira Barbosa</h1>
 
 <p align="center">
-  <b>DevOps & Platform Engineer | Managed by <a href="https://github.com/devopsfera-labs">@devopsfera-labs</a></b>
+  <b>DevOps & Platform Engineer</a></b>
 </p>
 
 <p align="center">
@@ -20,13 +20,13 @@
 
 I focus on infrastructure automation, CI/CD, and cloud-native architectures, working to reduce the cognitive load of engineering teams by building **Paved Roads**.
 
-I currently use **[devopsfera-labs](https://github.com/devopsfera-labs)** as my personal engineering sandbox, where I research, prototype, and build solutions focused on Developer Experience (DX), Platform Engineering, and immutable infrastructure. Using technologies such as AWS, Terraform, and Kubernetes, I design standardized, reliable, and easy-to-operate environments that reflect real-world cloud-native engineering practices.
+I currently use **[DevOpsFera Labs](https://github.com/devopsfera-labs)** as my personal engineering sandbox, where I research, prototype, and build solutions focused on Developer Experience (DX), Platform Engineering, and immutable infrastructure. Using technologies such as AWS, Terraform, and Kubernetes, I design standardized, reliable, and easy-to-operate environments that reflect real-world cloud-native engineering practices.
 
 ---
 
 ## Labs & Engineering
 
-**FlowDX** is the core project of my **Platform Engineering** journey. Hosted at **devopsfera-labs**, it serves as a sandbox for:
+**FlowDX** is the core project of my **Platform Engineering** journey. Hosted at **DevOpsfera Labs**, it serves as a sandbox for:
 
 *   **Self-Service Provisioning:** Abstracting AWS complexity through Terraform modules.
 *   **Hub-and-Spoke Architecture:** Centralizing governance and CI/CD pipelines across multiple repositories.
