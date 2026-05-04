@@ -1,7 +1,7 @@
 <h1 align="center">Leandro de Oliveira Barbosa</h1>
 
 <p align="center">
-  <b>DevOps & Platform Engineer</a></b>
+  <b>DevOps & Platform Engineer</b>
 </p>
 
 <p align="center">
@@ -10,8 +10,8 @@
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="ArgoCD" /><br>
-  <img src="https://img.shields.io/badge/developer%20experience-focused-blueviolet">
-  <img src="https://img.shields.io/badge/platform%20engineering-sandbox-blue">
+  <img src="https://img.shields.io/badge/platform%20engineering-focused-blue">
+  <img src="https://img.shields.io/badge/self--service%20platform-in%20progress-blueviolet">
 </p>
 
 ## About me
@@ -20,42 +20,34 @@ I focus on infrastructure automation, CI/CD, and cloud-native architectures, wor
 
 I currently use **[DevOpsFera Labs](https://github.com/devopsfera-labs)** as my personal engineering sandbox, where I research, prototype, and build solutions focused on Developer Experience (DX), Platform Engineering, and immutable infrastructure. Using technologies such as AWS, Terraform, and Kubernetes, I design standardized, reliable, and easy-to-operate environments that reflect real-world cloud-native engineering practices.
 
----
-
 ## Labs & Engineering
 
 **FlowDX** is the core project of my **Platform Engineering** journey. Hosted at **DevOpsfera Labs**, it serves as a sandbox for:
 
 *   **Self-Service Provisioning:** Abstracting AWS complexity through Terraform modules.
 *   **Hub-and-Spoke Architecture:** Centralizing governance and CI/CD pipelines across multiple repositories.
-*   **Real-world Workload:** My personal portfolio serves as the official workload to validate the platform's resilience and delivery flow.
-
----
+*   **Production-like Workload:** Using my personal portfolio as a real workload to validate provisioning, deployment, observability, and operational workflows.
 
 ## Tech Stack
 
-**Cloud & Platform**
+**Cloud & Platform**  
 `AWS` `Docker` `Kubernetes` `Linux` `Helm`
 
-**IaC & CI/CD**
+**IaC & CI/CD**  
 `Terraform` `GitHub Actions` `ArgoCD`
 
-**Scripting & Automation**
+**Scripting & Automation**  
 `Python` `Bash`
 
-**Observability & Security**
-`CloudWatch` `IAM (OIDC/RBAC)` `Drift Detection`
+**Governance, Observability & Security**  
+`CloudWatch` `IAM` `OIDC` `RBAC` `Least Privilege` `Drift Detection`
 
----
+## Current Focus
 
-## Engineering Roadmap
-
-*   **Native Kubernetes:** Deep diving into cluster management, Helm charts, and advanced GitOps.
-*   **Terraform Associate:** Theoretical consolidation and official certification in Infrastructure as Code.
-*   **Python for DevOps:** Refactoring pipelines for data-driven automation and infrastructure manipulation.
-*   **Cloud Security:** Refining least-privilege policies and container security best practices.
-
----
+* **Kubernetes & GitOps:** Deepening hands-on experience with Helm, ArgoCD, and production-grade deployment patterns.
+* **Infrastructure as Code:** Consolidating Terraform best practices, module design, state management, and policy-driven workflows.
+* **Python for CI/CD Automation:** Building pipeline automation for validation, metadata processing, governance checks, and infrastructure delivery workflows.
+* **Cloud Security:** Improving IAM boundaries, OIDC-based access, least privilege, and container security practices.
 
 ## Contact
 
