@@ -14,8 +14,6 @@
   <img src="https://img.shields.io/badge/platform%20engineering-sandbox-blue">
 </p>
 
----
-
 ## About me
 
 I focus on infrastructure automation, CI/CD, and cloud-native architectures, working to reduce the cognitive load of engineering teams by building **Paved Roads**.
