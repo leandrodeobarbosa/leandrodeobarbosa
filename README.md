@@ -10,90 +10,96 @@
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="ArgoCD" /><br>
+  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="ArgoCD" />
 </p>
 
 ## About me
 
-I am a DevOps Engineer focused on cloud infrastructure, CI/CD automation, Infrastructure as Code, Kubernetes, and Platform Engineering.
+I am a DevOps Engineer focused on cloud infrastructure, CI/CD automation, Infrastructure as Code (IaC), Kubernetes, GitOps, and Platform Engineering.
 
 I use **[DevOpsfera Labs](https://github.com/devopsfera-labs)** as my engineering lab to build and validate production-oriented DevOps and Platform Engineering patterns.
 
-My main initiative is **FlowDX**, a self-service delivery platform concept based on reusable workflows, declarative contracts, GitOps, governance, and developer experience.
+My main initiative is **FlowDX**, a platform engineering project focused on self-service workload delivery through reusable workflows, declarative contracts, GitOps, Policy-as-Code, and governed automation.
+
+## Production Portfolio
+
+My personal portfolio, **[leandrodeobarbosa.dev](https://leandrodeobarbosa.dev)**, is deployed on AWS using Infrastructure as Code and automated CI/CD pipelines.
+
+The infrastructure includes:
+
+- Amazon S3 for static site hosting
+- Amazon CloudFront for CDN and edge delivery
+- Amazon Route 53 for DNS management
+- AWS Certificate Manager for TLS certificates
+- Terraform modules for reusable infrastructure components
+- Terraform remote state with S3 and DynamoDB state locking
+- GitHub Actions pipelines for application and infrastructure validation/deployment
+- Matrix-based infrastructure validation across environments
+
+This live environment serves as a practical foundation where I validate Terraform module design, AWS, CI/CD, OIDC, drift detection, multi-environment workflows, and operational practices.
 
 ## Main Initiative: FlowDX
 
-**FlowDX** is not intended to be a full Internal Developer Platform at this stage.
+**FlowDX** is not intended to be a full Internal Developer Platform (IDP) at this stage.
 
-The current goal is to build a focused platform foundation for **self-service workload delivery**, where application repositories consume standardized platform capabilities instead of rebuilding CI/CD, governance, and delivery logic from scratch.
+The current goal is to build a focused platform foundation where application repositories consume standardized platform capabilities instead of rebuilding CI/CD, governance, container delivery, and Kubernetes deployment logic from scratch.
 
 ```text
 flowdx-platform
-  ├─ contracts
-  ├─ reusable workflows
-  ├─ templates
-  └─ kyverno policies
-        |
-        | consumed by
-        v
-flowdx-reference-api
-  ├─ Python API
-  ├─ Dockerfile
-  ├─ Helm chart
-  └─ flowdx.yaml
-        |
-        | CI/CD
-        v
-Container Registry
-  └─ GHCR
-        |
-        | image
-        v
-flowdx-gitops
-  ├─ ArgoCD Applications
-  ├─ Helm values
-  └─ cluster config
-        |
-        | observed by
-        v
-Kind Kubernetes
-  ├─ ArgoCD
-  ├─ reference-api
-  ├─ Prometheus
-  ├─ Grafana
-  └─ Kyverno
+  -> flowdx-reference-api
+  -> GHCR
+  -> flowdx-gitops
+  -> Kind Kubernetes
 ```
 
-## Engineering Focus
+The reference architecture explores:
 
-- **Platform Engineering:** reusable workflows, declarative contracts, templates, and governed delivery paths.
-- **CI/CD Automation:** GitHub Actions, Docker image builds, GHCR publishing, required checks, and secure automation.
-- **GitOps & Kubernetes:** ArgoCD, Helm, Kind, environment-specific values, and workload synchronization.
-- **Infrastructure as Code:** Terraform modules, remote state, environment separation, drift detection, and safe plan visibility.
-- **Governance & Security:** OIDC, least privilege, Kyverno policies, approval gates, and sanitized pipeline summaries.
-- **Observability:** Prometheus, Grafana, and CloudWatch fundamentals.
+- reusable GitHub Actions workflows
+- declarative workload contracts with `flowdx.yaml`
+- FastAPI reference workload with structured JSON logs
+- Docker image publishing to GHCR
+- immutable GitOps deployments using image digests
+- Helm-based Kubernetes packaging
+- ArgoCD-based delivery
+- Gateway API routing with NGINX Gateway Fabric
+- Policy-as-Code with Kyverno
+- local validation with Kind, Prometheus, and Grafana
+
+## What I’m demonstrating
+
+- **Live AWS Environment:** personal portfolio deployed with S3, CloudFront, Route 53, ACM, Terraform remote state, DynamoDB state locking, and GitHub Actions.
+- **Cloud Infrastructure:** AWS, Terraform, remote state, IAM, OIDC, and drift detection.
+- **CI/CD Governance:** reusable workflows, required checks, approval gates, and sanitized pipeline feedback.
+- **Container Delivery:** Docker builds, GHCR publishing, traceable image references, and digest-based deployments.
+- **GitOps & Kubernetes:** ArgoCD, Helm, Kind, Gateway API, and declarative runtime state.
+- **Security & Policy:** least privilege, Policy-as-Code, Kyverno policies, and controlled delivery paths.
+- **Observability:** structured logs, Prometheus, Grafana, and CloudWatch fundamentals.
 
 ## Tech Stack
 
 **Cloud & Infrastructure**  
-`AWS` `Terraform` `Remote State` `IAM` `OIDC`
+`AWS` `Terraform` `Remote State` `S3` `CloudFront` `Route 53` `ACM` `DynamoDB` `IAM` `OIDC`
 
-**CI/CD & Automation**  
-`GitHub Actions` `Reusable Workflows` `Docker` `GHCR` `Python` `Bash`
+**CI/CD & Supply Chain**  
+`GitHub Actions` `Reusable Workflows` `Docker` `GHCR` `Image Digest`
+
+**Application Runtime**  
+`Python` `FastAPI` `Structured Logs`
 
 **Kubernetes & GitOps**  
-`Kubernetes` `Kind` `Helm` `ArgoCD`
+`Kubernetes` `Kind` `Helm` `ArgoCD` `Gateway API` `NGINX Gateway Fabric`
 
 **Governance, Security & Observability**  
-`Kyverno` `RBAC` `Least Privilege` `Prometheus` `Grafana` `CloudWatch`
+`Kyverno` `Policy-as-Code` `RBAC` `Least Privilege` `Prometheus` `Grafana` `CloudWatch`
 
 ## Current Focus
 
-- Building the `flowdx-platform` foundation with contracts, reusable workflows, templates, and policies.
-- Creating `flowdx-reference-api` as the reference Python API workload.
-- Structuring `flowdx-gitops` as the source of truth for ArgoCD and Helm values.
-- Validating the full delivery flow locally with Kind, ArgoCD, Kyverno, Prometheus, and Grafana.
-- Improving CI/CD governance with required checks, approval gates, OIDC, and sanitized pipeline feedback.
+- Building `flowdx-platform` as the platform hub.
+- Creating `flowdx-reference-api` as the reference FastAPI workload.
+- Structuring `flowdx-gitops` as the GitOps source of truth.
+- Validating the delivery flow with Kind, ArgoCD, NGINX Gateway Fabric, Kyverno, Prometheus, and Grafana.
+- Improving CI/CD governance with OIDC, required checks, Policy-as-Code, and sanitized feedback.
+- Maintaining a live AWS-based portfolio with Terraform, GitHub Actions, and production-oriented operational practices.
 
 ## Contact
 
